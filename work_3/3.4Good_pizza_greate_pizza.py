@@ -1,12 +1,10 @@
 from typing import List
 
 class Pizza:
-    # Атрибуты класса (общие для всех пицц)
     base = "тонкое тесто"
     cheese_type = "моцарелла"
 
     def __init__(self, name: str, toppings: List[str], size: str, price: float, is_spicy: bool):
-        # Атрибуты объекта (у каждой пиццы свои)
         self.name = name
         self.toppings = toppings
         self.size = size
