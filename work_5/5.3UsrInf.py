@@ -2,7 +2,7 @@ import random
 import json
 import string
 
-def fake_name():
+def fake_name(): #Не работает Faker, заменил своей функцией
     first_names = ["Олег", "Игорь", "Анна", "Елена", "Дмитрий", "Светлана", "Алексей", "Мария"]
     last_names = ["Иванов", "Петров", "Сидоров", "Смирнов", "Кузнецов", "Васильев", "Попов", "Новиков"]
     return f"{random.choice(first_names)} {random.choice(last_names)}"
